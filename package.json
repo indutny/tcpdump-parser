@@ -1,6 +1,6 @@
 {
   "name": "tcpdump-parser",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "tcpdump hex output parser",
   "main": "index.js",
   "scripts": {
