@@ -1,0 +1,30 @@
+{
+  "name": "tcpdump-parser",
+  "version": "0.0.0",
+  "description": "tcpdump hex output parser",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha test/**/*-test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:indutny/tcpdump-parser"
+  },
+  "keywords": [
+    "tcpdump",
+    "parser",
+    "hex"
+  ],
+  "author": "Fedor Indutny <fedor@indutny.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/indutny/tcpdump-parser/issues"
+  },
+  "homepage": "https://github.com/indutny/tcpdump-parser",
+  "devDependencies": {
+    "mocha": "^1.21.4"
+  },
+  "dependencies": {
+    "obuf": "^0.1.0"
+  }
+}
