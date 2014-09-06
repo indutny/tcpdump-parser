@@ -48,7 +48,6 @@ Parser.prototype.parseLine = function parseLine(line) {
       this.off = 0;
       this.offStr = this.offToStr(this.off);
     }
-    return;
   }
 
   var hex = line.slice(this.offStr.length).trim().split(/\s/, 8).join('');
